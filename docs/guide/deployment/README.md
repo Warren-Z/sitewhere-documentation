@@ -111,5 +111,5 @@ helm install --name kafka-manager \
 Port-forward Kafka Manager UI
 
 ```console
-kubectl port-forward deployment/kafka-manager-kafka-manager 9000 9000
+kubectl port-forward deployment/kafka-manager 9000:9000
 ```
